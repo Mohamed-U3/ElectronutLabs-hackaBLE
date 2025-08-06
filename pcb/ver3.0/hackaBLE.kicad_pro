@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.14,
-          "width": 0.5
+          "height": 0.62,
+          "width": 0.735
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|182150000|104100000|5e4019b3-ba71-44d5-a2de-4f04b1a52e2d|5712077f-ae10-4580-a44e-e63d0a199c5c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|182150000|104100000|5e4019b3-ba71-44d5-a2de-4f04b1a52e2d|5712077f-ae10-4580-a44e-e63d0a199c5c",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

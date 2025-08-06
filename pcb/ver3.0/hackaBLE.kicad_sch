@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "hackaBLE")
-		(rev "Ver 2.2")
+		(date "2025-08-06")
+		(rev "Ver 3.0")
 		(company "electronut Labs")
-		(comment 1 "electronut.in")
+		(comment 1 "Edit by Mohamed U3")
 	)
 	(lib_symbols
 		(symbol "C_Small_1"
@@ -12651,6 +12652,362 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Clock:ABM8-32.000MHZ-B2-T3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.0878 6.3559 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ABM8-32.000MHZ-B2-T3"
+				(at -5.0944 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ABM8-32.000MHZ-B2-T3:XTAL_ABM8-32.000MHZ-B2-T3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "NON-STANDARD-4 ABRACON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ABM8-32.000MHZ-B2-T3/Abracon/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "44041"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABM8-32.000MHZ-B2-T3/Abracon/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ABM8-32.000MHZ-B2-T3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Crystal 32MHz ±20ppm (Tol) ±50ppm (Stability) 18pF FUND 40Ohm 4-Pin Ultra Mini-CSMD T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ABM8-32.000MHZ-B2-T3_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VDD_1"
 			(power)
 			(pin_names
@@ -14149,204 +14506,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "hackaBLE-rescue:Crystal_GND24_Small"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y2"
-				(at -2.286 2.794 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "32MHz"
-				(at 1.016 2.794 90)
-				(effects
-					(font
-						(size 0.7112 0.7112)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "hackaBLE:32MHz_crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy -1.27 0.889)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.635 -1.27)
-					(end 0.889 1.778)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 1.27 0.889)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.905)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.905)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16732,6 +16891,12 @@
 		(uuid "f27b41bd-7fb6-4e74-a65d-b9dd75d8b7fe")
 	)
 	(junction
+		(at 171.45 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c10b8fe-e9e1-4989-b972-1a7b530a326a")
+	)
+	(junction
 		(at 48.26 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16742,12 +16907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e8fab8-e4c2-4dc0-9eba-e3c6853b1c2f")
-	)
-	(junction
-		(at 171.45 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "345f8f19-fc29-4975-bb8a-4f2f263c9d23")
 	)
 	(junction
 		(at 36.83 107.95)
@@ -16804,6 +16963,12 @@
 		(uuid "81977ff9-fd41-4dab-94af-6dc900a1a299")
 	)
 	(junction
+		(at 152.4 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cb8ccc7-b1c2-4e85-add2-1a80c046913d")
+	)
+	(junction
 		(at 77.47 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16814,12 +16979,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6680a1c-cae2-424a-9580-939d0d11d11a")
-	)
-	(junction
-		(at 156.21 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7b8d854-3195-4ce2-8911-a25cda26456f")
 	)
 	(junction
 		(at 149.86 119.38)
@@ -16834,22 +16993,16 @@
 		(uuid "c35bf3dc-7229-4ea1-9597-36a3ef822a12")
 	)
 	(junction
+		(at 158.75 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d241db1c-813d-4d08-9bcb-4ed287d77667")
+	)
+	(junction
 		(at 88.9 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da114a66-3369-4746-90b8-3eadbd12134d")
-	)
-	(junction
-		(at 171.45 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8cdc888-066e-44a4-b1ec-679a1eb4d3ce")
-	)
-	(junction
-		(at 156.21 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc15cf82-136a-4b75-8df6-62e6fa7c53dc")
 	)
 	(wire
 		(pts
@@ -16863,23 +17016,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 165.1 106.68)
+			(xy 171.45 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "02e8008a-b47b-4f3d-bb95-ffbaf15e9adf")
-	)
-	(wire
-		(pts
-			(xy 156.21 96.52) (xy 156.21 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0643fb4e-a37e-4add-bdcc-451d59d32d18")
 	)
 	(wire
 		(pts
@@ -16910,16 +17053,6 @@
 			(type default)
 		)
 		(uuid "0ad613cc-f25c-4f59-9f4d-786edde0c7ba")
-	)
-	(wire
-		(pts
-			(xy 149.86 101.6) (xy 152.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c168126-467f-42be-8fd7-04bd07dd2500")
 	)
 	(wire
 		(pts
@@ -17223,16 +17356,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 149.86 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e65092-2779-4e4a-80f7-3822c29d20e3")
-	)
-	(wire
-		(pts
 			(xy 88.9 81.28) (xy 88.9 87.63)
 		)
 		(stroke
@@ -17243,7 +17366,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 156.21 96.52)
+			(xy 147.32 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -17263,6 +17386,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 80.01) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd84904-a1e4-4fb0-8a20-6f1a9605816f")
+	)
+	(wire
+		(pts
 			(xy 130.81 99.06) (xy 130.81 100.33)
 		)
 		(stroke
@@ -17270,16 +17403,6 @@
 			(type default)
 		)
 		(uuid "3ee73023-d387-41e2-969f-bcdf1c3dddc3")
-	)
-	(wire
-		(pts
-			(xy 156.21 96.52) (xy 160.02 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40bccaf8-64fc-45fc-acc7-7328f3ff54b3")
 	)
 	(wire
 		(pts
@@ -17413,6 +17536,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 88.9) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dfae47-9114-49a9-8349-696e4a0450f0")
+	)
+	(wire
+		(pts
 			(xy 149.86 129.54) (xy 149.86 130.81)
 		)
 		(stroke
@@ -17443,7 +17576,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 147.32 104.14)
+			(xy 147.32 76.2) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0)
@@ -17553,16 +17686,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 104.14) (xy 156.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f23d7f-2a9f-4b7b-b7ad-9e9069eb210e")
-	)
-	(wire
-		(pts
 			(xy 52.07 106.68) (xy 52.07 104.14)
 		)
 		(stroke
@@ -17663,16 +17786,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 92.71) (xy 171.45 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "725eb79e-1ba7-4e9b-8655-9aa5d3342919")
-	)
-	(wire
-		(pts
 			(xy 60.96 109.22) (xy 52.07 109.22)
 		)
 		(stroke
@@ -17703,6 +17816,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 76.2) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a53eb7d-00ea-487a-bfd1-716f89874e9b")
+	)
+	(wire
+		(pts
 			(xy 149.86 111.76) (xy 153.67 111.76)
 		)
 		(stroke
@@ -17723,17 +17846,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 106.68) (xy 156.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f4cb04f-f5ac-4278-bd18-70e873fba5c3")
-	)
-	(wire
-		(pts
-			(xy 156.21 106.68) (xy 160.02 106.68)
+			(xy 135.89 106.68) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -17763,16 +17876,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 101.6) (xy 171.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82637a39-d363-44de-81b7-63c69ac7a1d1")
-	)
-	(wire
-		(pts
 			(xy 74.93 83.82) (xy 77.47 83.82)
 		)
 		(stroke
@@ -17783,7 +17886,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 171.45 101.6)
+			(xy 171.45 76.2) (xy 171.45 88.9)
 		)
 		(stroke
 			(width 0)
@@ -17840,6 +17943,16 @@
 			(type default)
 		)
 		(uuid "84d7ad92-767a-4c7a-ac3f-3aafc5f2e88b")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861a5738-fefb-4cab-b33f-1a1305638d70")
 	)
 	(wire
 		(pts
@@ -18021,16 +18134,6 @@
 		)
 		(uuid "9b23754a-4ec0-408b-9d72-3511efd56dcf")
 	)
-	(wire
-		(pts
-			(xy 149.86 92.71) (xy 171.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dea3d67-9894-496e-b617-3156fa68058f")
-	)
 	(bus
 		(pts
 			(xy 179.07 116.84) (xy 181.61 116.84)
@@ -18060,6 +18163,16 @@
 			(type default)
 		)
 		(uuid "a165dfe1-3f63-41e3-9019-cdc6b188f6d0")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1db2855-87f7-419e-a71e-9e5c79421487")
 	)
 	(wire
 		(pts
@@ -18100,6 +18213,16 @@
 			(type default)
 		)
 		(uuid "aa39ace7-8885-4e1d-809a-47f99eea7fff")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab77a3f-95b1-4688-ab6c-baaa6bca5757")
 	)
 	(bus
 		(pts
@@ -18183,6 +18306,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 106.68) (xy 158.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b874540d-62e1-47b4-9f65-0f067bef2a61")
+	)
+	(wire
+		(pts
 			(xy 133.35 106.68) (xy 130.81 106.68)
 		)
 		(stroke
@@ -18253,7 +18386,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 171.45 96.52)
+			(xy 165.1 76.2) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -18320,6 +18453,16 @@
 			(type default)
 		)
 		(uuid "d13a26ae-0650-438c-818a-4c65b0b2aa26")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26e4de6-f036-4fec-ae49-eff235ef2312")
 	)
 	(bus
 		(pts
@@ -18453,7 +18596,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 92.71) (xy 173.99 92.71)
+			(xy 171.45 101.6) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -20918,7 +21061,7 @@
 	(symbol
 		(lib_name "C_Small_23")
 		(lib_id "hackaBLE-rescue:C_Small")
-		(at 162.56 106.68 90)
+		(at 165.1 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20926,7 +21069,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a61f26c")
 		(property "Reference" "C2"
-			(at 167.513 108.204 90)
+			(at 170.053 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20935,7 +21078,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 168.529 105.41 90)
+			(at 171.069 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20944,7 +21087,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 162.56 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20953,7 +21096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20962,7 +21105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20987,7 +21130,7 @@
 	(symbol
 		(lib_name "C_Small_22")
 		(lib_id "hackaBLE-rescue:C_Small")
-		(at 162.56 96.52 90)
+		(at 162.56 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20995,7 +21138,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a61f272")
 		(property "Reference" "C1"
-			(at 167.513 97.917 90)
+			(at 167.513 77.597 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21004,7 +21147,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 168.529 95.25 90)
+			(at 168.529 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21013,7 +21156,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 162.56 96.52 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21022,7 +21165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 96.52 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21031,7 +21174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 96.52 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21257,83 +21400,9 @@
 		)
 	)
 	(symbol
-		(lib_id "hackaBLE-rescue:Crystal_GND24_Small")
-		(at 156.21 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a6239c9")
-		(property "Reference" "Y2"
-			(at 159.004 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "32MHz"
-			(at 159.004 102.616 90)
-			(effects
-				(font
-					(size 0.7112 0.7112)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hackaBLE:32MHz_crystal"
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "086c1b36-ff2c-4b94-bed9-7382bc57faad")
-		)
-		(pin "4"
-			(uuid "2b982779-7a43-4d55-91f7-3e1489db7063")
-		)
-		(pin "1"
-			(uuid "8f531df8-52f6-44a8-b3c4-f05b0b57fa4f")
-		)
-		(pin "3"
-			(uuid "154a5a8a-32fb-45b8-88eb-1ac1c438f91d")
-		)
-		(instances
-			(project ""
-				(path "/7bf155d7-cf3f-4b19-a6e4-e06ff318c707"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_23")
 		(lib_id "hackaBLE-rescue:GND")
-		(at 173.99 92.71 90)
+		(at 173.99 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21341,7 +21410,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a626fd4")
 		(property "Reference" "#PWR09"
-			(at 180.34 92.71 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21350,7 +21419,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 92.71 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21358,7 +21427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 92.71 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21367,7 +21436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 92.71 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21376,7 +21445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 92.71 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23185,6 +23254,202 @@
 			(project "hackaBLE"
 				(path "/7bf155d7-cf3f-4b19-a6e4-e06ff318c707"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Clock:ABM8-32.000MHZ-B2-T3")
+		(at 158.75 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a6c29e8-10b3-477c-be31-684451703f23")
+		(property "Reference" "Y3"
+			(at 152.4 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ABM8-32.000MHZ-B2-T3"
+			(at 150.368 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "crystal:XTAL_ABM8-32.000MHZ-B2-T3"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Abracon"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON-STANDARD-4 ABRACON"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ABM8-32.000MHZ-B2-T3/Abracon/view-part/?ref=eda"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "44041"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABM8-32.000MHZ-B2-T3/Abracon/view-part/?ref=snap"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ABM8-32.000MHZ-B2-T3"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Crystal 32MHz ±20ppm (Tol) ±50ppm (Stability) 18pF FUND 40Ohm 4-Pin Ultra Mini-CSMD T/R"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "26a26cd8-4b7d-4647-b454-483e1e5538ce")
+		)
+		(pin "1"
+			(uuid "349a07c2-c23d-47ed-ba77-8a76d0afae44")
+		)
+		(pin "2"
+			(uuid "b42f5edd-51c8-4fdd-b539-d186745866db")
+		)
+		(pin "3"
+			(uuid "4c432b26-de34-45f3-849b-9e01d69cbc0c")
+		)
+		(instances
+			(project ""
+				(path "/7bf155d7-cf3f-4b19-a6e4-e06ff318c707"
+					(reference "Y3")
 					(unit 1)
 				)
 			)
