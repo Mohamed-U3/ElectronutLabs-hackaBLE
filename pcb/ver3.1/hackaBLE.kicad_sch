@@ -17088,7 +17088,7 @@
 	)
 	(rectangle
 		(start 43.19 12.57)
-		(end 143.45 59.83)
+		(end 143.45 59.69)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -17112,7 +17112,7 @@
 	)
 	(rectangle
 		(start 12.85 12.52)
-		(end 42.6 59.86)
+		(end 42.6 59.69)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -17940,7 +17940,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 38.1) (xy 243.84 38.1)
+			(xy 222.25 31.75) (xy 226.06 31.75)
 		)
 		(stroke
 			(width 0)
@@ -17980,7 +17980,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 39.37) (xy 246.38 39.37)
+			(xy 226.06 33.02) (xy 228.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -18080,7 +18080,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 74.93) (xy 236.22 74.93)
+			(xy 257.81 27.94) (xy 262.89 27.94)
 		)
 		(stroke
 			(width 0)
@@ -18160,7 +18160,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 38.1) (xy 243.84 39.37)
+			(xy 226.06 31.75) (xy 226.06 33.02)
 		)
 		(stroke
 			(width 0)
@@ -18360,7 +18360,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 35.56) (xy 246.38 35.56)
+			(xy 222.25 29.21) (xy 228.6 29.21)
 		)
 		(stroke
 			(width 0)
@@ -18740,7 +18740,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 80.01) (xy 236.22 80.01)
+			(xy 260.35 33.02) (xy 262.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -19719,7 +19719,7 @@
 		(uuid "d575395f-21ff-4b76-94da-3ee89dcabb1f")
 	)
 	(label "P0.02"
-		(at 231.14 74.93 0)
+		(at 257.81 27.94 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -23524,7 +23524,7 @@
 	(symbol
 		(lib_name "GND_21")
 		(lib_id "hackaBLE-rescue:GND")
-		(at 233.68 80.01 270)
+		(at 260.35 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23532,7 +23532,7 @@
 		(dnp no)
 		(uuid "18bc7988-a4f1-42bf-bc47-9906c4a668f7")
 		(property "Reference" "#PWR024"
-			(at 227.33 80.01 0)
+			(at 254 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23541,7 +23541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 80.01 0)
+			(at 256.54 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23549,7 +23549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 80.01 0)
+			(at 260.35 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23558,7 +23558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 80.01 0)
+			(at 260.35 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23567,7 +23567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 80.01 0)
+			(at 260.35 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23589,7 +23589,7 @@
 	(symbol
 		(lib_name "GND_21")
 		(lib_id "hackaBLE-rescue:GND")
-		(at 246.38 35.56 90)
+		(at 228.6 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23597,7 +23597,7 @@
 		(dnp no)
 		(uuid "65bf8b31-2d72-49bb-b09b-12404b4f6106")
 		(property "Reference" "#PWR022"
-			(at 252.73 35.56 0)
+			(at 234.95 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23606,7 +23606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 35.56 0)
+			(at 232.41 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23614,7 +23614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 35.56 0)
+			(at 228.6 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23623,7 +23623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 35.56 0)
+			(at 228.6 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23632,7 +23632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 35.56 0)
+			(at 228.6 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23981,7 +23981,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 238.76 77.47 0)
+		(at 265.43 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23990,7 +23990,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd04e862-8f52-4575-9737-e9b512670dd8")
 		(property "Reference" "BZ1"
-			(at 242.57 76.1999 0)
+			(at 269.24 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23999,7 +23999,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 242.57 78.7399 0)
+			(at 269.24 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24007,8 +24007,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E"
-			(at 238.125 74.93 90)
+		(property "Footprint" "Buzzer:BUZ-SMD_L5.0-W5.5-P4.60"
+			(at 264.795 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24017,7 +24017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.125 74.93 90)
+			(at 264.795 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24026,7 +24026,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 238.76 77.47 0)
+			(at 265.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24051,7 +24051,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 234.95 35.56 0)
+		(at 217.17 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24060,15 +24060,15 @@
 		(fields_autoplaced yes)
 		(uuid "e1b11c04-c8c2-4fc9-8570-a78ebc77294a")
 		(property "Reference" "J4"
-			(at 235.585 30.48 0)
+			(at 217.805 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 235.585 33.02 0)
+		(property "Value" "Battery_CR2032"
+			(at 217.805 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24076,7 +24076,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032"
-			(at 234.95 35.56 0)
+			(at 217.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24085,7 +24085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 35.56 0)
+			(at 217.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24094,7 +24094,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 234.95 35.56 0)
+			(at 217.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24120,7 +24120,7 @@
 	(symbol
 		(lib_name "VDD_9")
 		(lib_id "hackaBLE-rescue:VDD")
-		(at 246.38 39.37 270)
+		(at 228.6 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24128,7 +24128,7 @@
 		(dnp no)
 		(uuid "f1d2f75b-3f32-466a-a34d-5840fa74347a")
 		(property "Reference" "#PWR023"
-			(at 242.57 39.37 0)
+			(at 224.79 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24137,7 +24137,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 250.19 39.37 0)
+			(at 232.41 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24145,7 +24145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 39.37 0)
+			(at 228.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24154,7 +24154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 39.37 0)
+			(at 228.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24163,7 +24163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 39.37 0)
+			(at 228.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
