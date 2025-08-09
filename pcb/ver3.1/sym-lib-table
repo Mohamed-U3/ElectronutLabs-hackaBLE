@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "hackaBLE-rescue")(type "Legacy")(uri "${KIPRJMOD}/hackaBLE-rescue.lib")(options "")(descr ""))
+  (lib (name "hackaBLE")(type "Legacy")(uri "${KIPRJMOD}/hackaBLE.lib")(options "")(descr ""))
+)
