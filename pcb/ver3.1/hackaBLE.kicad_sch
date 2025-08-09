@@ -19846,7 +19846,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
+		(property "Value" "SX 0606 RGB LED_ARGB"
 			(at 167.64 27.94 0)
 			(effects
 				(font
@@ -19872,12 +19872,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 167.64 36.83 0)
+		(property "Description" "SX 0606 RGB"
+			(at 157.48 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -21203,7 +21204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9uH"
+		(property "Value" "3.9nH"
 			(at 156.972 120.523 90)
 			(effects
 				(font
@@ -21230,12 +21231,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LQP15MN3N9B02D"
 			(at 154.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"

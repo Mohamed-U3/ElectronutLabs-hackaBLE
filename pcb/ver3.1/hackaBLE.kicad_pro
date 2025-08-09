@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.55,
+          "width": 1.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|162600000|120038000|00000000-0000-0000-0000-00005b869b90|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|167700000|118800000|af8e8b57-bc1b-4812-8923-c340d5ea629c|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -72,23 +68,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|176134000|131900000|00000000-0000-0000-0000-00005a66bd43|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|176600000|125100000|00000000-0000-0000-0000-00005a66bd07|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|176800000|119600000|8dfdd0a0-e715-4214-9dd9-ca1d562e0ddb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|180250000|128250000|00000000-0000-0000-0000-00005baa1426|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|189800000|120018000|00000000-0000-0000-0000-00005b869b9d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -293,7 +277,7 @@
         "min_track_width": 0.156,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
